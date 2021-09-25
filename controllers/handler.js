@@ -14,7 +14,7 @@ const loadList = () => {
 
 const getAllList = (req, res) => {
   let lists = loadList();
-  res.send(lists);
+  res.json(lists);
 };
 
 const postList = (req, res) => {
